@@ -1,0 +1,149 @@
+# TASK TASK TASK TASK TASK TASK TASK TASK TASK TASK TASK TASK
+### Get all
+GET http://192.249.18.208:3001/tasks
+### Get one
+GET http://192.249.18.208:3001/tasks/60040fbc11549404df3abd7e
+### Create one
+POST http://192.249.18.208:3001/tasks
+Content-Type: application/json
+
+{
+    "isDone": true,
+    "content": "asdasdfasdfs"
+}
+### Upated one
+PATCH http://192.249.18.208:3001/tasks/6003dedd6627c130ef80b031
+Content-Type: application/json
+
+{
+    "isDone": false,
+    "content": "newnewnew task~~~"
+}
+### Delete one
+DELETE http://192.249.18.208:3001/tasks/600336ce87cb8d48ef7fd1f6
+
+# COLUMN COLUMN COLUMN COLUMN COLUMN COLUMN COLUMN COLUMN COLUMN COLUMN
+### Get all
+GET http://192.249.18.208:3001/columns
+### Get one
+GET http://192.249.18.208:3001/columns/600400143e0c616a91ecfb59
+### Create one
+POST http://192.249.18.208:3001/columns
+Content-Type: application/json
+
+{
+	"title": "test title 1 collum",
+	"taskList": [
+		{
+			"isDone": false,
+			"content": "test test test test inside schema111"
+		},
+		{
+			"isDone": false,
+			"content": "test test test test inside schema222"
+		}
+	]
+}
+### Upated one
+PATCH http://192.249.18.208:3001/columns/600400143e0c616a91ecfb59
+Content-Type: application/json
+
+{
+	"title": "test title 1 collum NEWNEW",
+	"taskList": [
+		{
+			"isDone": true,
+			"content": "test test test test inside schema111"
+		},
+		{
+			"isDone": false,
+			"content": "test test test test inside schema222"
+		},
+		{
+			"isDone": false,
+			"content": "test test test test inside schema333"
+		}
+	]
+}
+### Delete one
+DELETE http://192.249.18.208:3001/columns/600400143e0c616a91ecfb59
+
+# COLUMN_ORDER COLUMN_ORDER COLUMN_ORDER COLUMN_ORDER COLUMN_ORDER
+### Get all
+GET http://192.249.18.208:3001/column-orders
+### Get one
+GET http://192.249.18.208:3001/column-orders/
+### Create one
+POST http://192.249.18.208:3001/column-orders
+### Upated one
+PATCH http://192.249.18.208:3001/column-orders/
+### Delete one
+DELETE http://192.249.18.208:3001/column-orders/
+
+# USER USER USER USER USER USER USER USER USER USER USER USER USER
+### Get all
+GET http://192.249.18.208:3001/users
+### Get one
+GET http://192.249.18.208:3001/users/
+### Create one
+POST http://192.249.18.208:3001/users/
+### Upated one
+PATCH http://192.249.18.208:3001/users/
+### Delete one
+DELETE http://192.249.18.208:3001/users/
+
+# USER USER USER USER USER USER USER USER USER USER USER USER USER
+### Get all
+### Get one
+### Create one
+### Upated one
+### Delete one
+
+# USER USER USER USER USER USER USER USER USER USER USER USER USER
+### Get all
+### Get one
+### Create one
+### Upated one
+### Delete one
+
+# USER USER USER USER USER USER USER USER USER USER USER USER USER
+### Get all
+### Get one
+### Create one
+### Upated one
+### Delete one
+
+# USER USER USER USER USER USER USER USER USER USER USER USER USER
+### Get all
+### Get one
+### Create one
+### Upated one
+### Delete one
+
+# USER USER USER USER USER USER USER USER USER USER USER USER USER
+### Get all
+### Get one
+### Create one
+### Upated one
+### Delete one
+
+# USER USER USER USER USER USER USER USER USER USER USER USER USER
+### Get all
+### Get one
+### Create one
+### Upated one
+### Delete one
+
+# USER USER USER USER USER USER USER USER USER USER USER USER USER
+### Get all
+### Get one
+### Create one
+### Upated one
+### Delete one
+
+# USER USER USER USER USER USER USER USER USER USER USER USER USER
+### Get all
+### Get one
+### Create one
+### Upated one
+### Delete one
